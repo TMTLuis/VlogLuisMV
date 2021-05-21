@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/template")
 def url_principal():
-	return render_template("template.html", nombre="Luis Morales Vazquez", edad="24 años", lugar="Guanajuato");
+	return render_template("template.html", nombre="Luis Morales Vazquez", edad="24", lugar="Guanajuato");
 
 @app.route("/hobbies")
 def hobbies():
